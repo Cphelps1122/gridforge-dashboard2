@@ -1,0 +1,18 @@
+gridforge-grafana/
+  docker-compose.yml
+  db/
+    init.sql
+  etl/
+    Dockerfile
+    run_etl.py
+    requirements.txt
+    config.yaml
+  grafana/
+    provisioning/
+      datasources/
+        datasources.yaml
+      dashboards/
+        dashboards.yaml
+    dashboards/
+      gridforge-overview.json
+      ...other dashboards...
